@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Button to take a picture using the camera -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Take Picture"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_above="@id/button2" />
+
+    <!-- Button to launch the gallery and select an image -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Launch Gallery"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <!-- ImageView to display the selected or captured image -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="370dp"
+        android:layout_height="370dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <!-- TextView to display the text "Classified as:" -->
+    <TextView
+        android:id="@+id/classified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:text="Classified as:"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <!-- TextView to display the classification result -->
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/classified"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="#C30000"
+        android:textStyle="bold"
+        android:textSize="27sp" />
+
+</RelativeLayout>
