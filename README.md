@@ -18,9 +18,6 @@ An Android application that helps users calculate the **water footprint** of fru
 - **Camera & Gallery Access**: Android Media APIs
 - **Data Source**: Custom calculated data
 
-## 📷 Screenshots
-
-*Add screenshots or GIFs here to demonstrate the app flow.*
 
 ## 📦 Installation
 
@@ -72,6 +69,16 @@ waterfootprint-app/
 ├── README.md                            # Project documentation
 └── LICENSE                              # License file (MIT or other)
 ```
+
+## 📷 Screenshots
+<p float="left">
+  <img src="screenshots/sample2.jpg" width="200" height="400"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/sample1.jpg" width="200"height="400"/>
+    &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/sample3.jpg" width="200"height="400"/>
+</p>
+
 ## ✅ Future Enhancements
 
 - 🌍 Support for more food categories (e.g., meat, grains).
