@@ -27,7 +27,7 @@ To run the Waterfootprint Android App locally, follow these steps:
 
    Open your terminal and run:
    ```bash
-   git clone https://github.com/yourusername/waterfootprint-app.git
+          https://github.com/prasanth-42/AI-Enhanced-Water-Footprint-App
    ```
 
 3. **Open in Android Studio**
